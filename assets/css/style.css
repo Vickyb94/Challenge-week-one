@@ -23,8 +23,9 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+/*changed div to navigation bar on html and styled in css*/
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,8 @@ body {
     font-size: 20px;
 }
 
+
 .header nav ul {
-    float: right;
-    margin: right;
-    position: relative;
-    bottom: 35px;
     list-style-type: none;
 }
 
@@ -89,6 +87,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     
+    /*removed div and added an aside function for the benefits section*/
 }
 .aside {
     margin-right: 20px;
@@ -130,19 +129,19 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*added alt to images*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*added alt to images*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*added alt to images*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
